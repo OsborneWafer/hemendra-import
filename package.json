@@ -1,0 +1,37 @@
+{
+  "name": "super-stare-backend",
+  "version": "1.0.0",
+  "description": "this is the bakend for super-stare-ui",
+  "main": "server.js",
+  "scripts": {
+    "test": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "build": "./node_modules/.bin/netlify-lambda build src"
+  },
+  "author": "Hemendra",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1641.0",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "knex": "^3.1.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "multer-s3": "^2.10.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.10.1",
+    "netlify-cli": "^17.29.0",
+    "netlify-lambda": "^2.0.16",
+    "nodemailer": "^6.9.13",
+    "nodemon": "^3.1.3",
+    "pg": "^8.12.0",
+    "serverless-http": "^3.2.0",
+    "sharp": "^0.33.4"
+  }
+}
