@@ -6,8 +6,7 @@
   "scripts": {
     "test": "node src/server.js",
     "dev": "nodemon src/server.js",
-    "start": "node src/server.js",
-    "build": "./node_modules/.bin/netlify-lambda build src"
+    "start": "node src/server.js"
   },
   "author": "Hemendra",
   "license": "ISC",
